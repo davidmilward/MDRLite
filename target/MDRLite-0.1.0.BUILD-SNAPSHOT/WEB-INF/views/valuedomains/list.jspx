@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_uk_co_mdc_model_Valuedomain" items="${valuedomains}" z="nO1dyxrWumRte38axHEiFpnEB3c=">
+        <table:table data="${valuedomains}" id="l_uk_co_mdc_model_Valuedomain" path="/valuedomains" z="odaarRqHVI1vBCXH9GhRIH6G/cU=">
+            <table:column id="c_uk_co_mdc_model_Valuedomain_refid" property="refid" z="w9H9H/PwF6MQ3kLtl5dDlvnchso="/>
+            <table:column id="c_uk_co_mdc_model_Valuedomain_des" property="des" z="7DVoRXLjwXCmmNyp+JwRWhsJGpw="/>
+            <table:column id="c_uk_co_mdc_model_Valuedomain_unitOfMeasure" property="unitOfMeasure" z="4YKx87ntr7HFZvlXMMISfkYAejw="/>
+            <table:column id="c_uk_co_mdc_model_Valuedomain_regexDef" property="regexDef" z="LZqSEG2dyKZLYdbi//H7NxyRlAA="/>
+            <table:column id="c_uk_co_mdc_model_Valuedomain_description" property="description" z="kMseuprETxuPSfZtcNt3aWfsT6Y="/>
+            <table:column id="c_uk_co_mdc_model_Valuedomain_datatype" property="datatype" z="xP1u1kHbkw4M1+Qne3nuK2EwIWU="/>
+        </table:table>
+    </page:list>
+</div>

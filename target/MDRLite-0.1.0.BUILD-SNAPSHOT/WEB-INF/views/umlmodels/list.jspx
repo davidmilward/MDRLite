@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_uk_co_mdc_model_UmlModel" items="${umlmodels}" z="CKVQZLsgv8Nix1EV9O7fs36kF6I=">
+        <table:table data="${umlmodels}" id="l_uk_co_mdc_model_UmlModel" path="/umlmodels" z="x4txr/f3QuaKNIcY18sl2Ncvs8M=">
+            <table:column id="c_uk_co_mdc_model_UmlModel_refid" property="refid" z="lZaB/AZFogPaMLi66VVPrp5u24A="/>
+            <table:column id="c_uk_co_mdc_model_UmlModel_conceptId" property="conceptId" z="LxAJiYSCft+crpRTztl/5Q+C9Wg="/>
+            <table:column id="c_uk_co_mdc_model_UmlModel_dataelements" property="dataelements" z="M4frJVt0nfL/HC0MlSEfg/E6b7Y="/>
+            <table:column id="c_uk_co_mdc_model_UmlModel_valuedomains" property="valuedomains" z="1EJqDjJ94MXGyZPGjEaPZ+3VoT4="/>
+            <table:column id="c_uk_co_mdc_model_UmlModel_description" property="description" z="gWOZ3iMULgMm5AVD5mftF/o3jE4="/>
+        </table:table>
+    </page:list>
+</div>

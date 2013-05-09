@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="valuedomains/list">
+        <put-attribute name="body" value="/WEB-INF/views/valuedomains/list.jspx"/>
+    </definition>
+<definition extends="default" name="valuedomains/show">
+        <put-attribute name="body" value="/WEB-INF/views/valuedomains/show.jspx"/>
+    </definition>
+<definition extends="default" name="valuedomains/create">
+        <put-attribute name="body" value="/WEB-INF/views/valuedomains/create.jspx"/>
+    </definition>
+<definition extends="default" name="valuedomains/update">
+        <put-attribute name="body" value="/WEB-INF/views/valuedomains/update.jspx"/>
+    </definition>
+</tiles-definitions>

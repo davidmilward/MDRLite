@@ -1,0 +1,34 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-05-09 14:46:44
+jpa setup --provider HIBERNATE --database POSTGRES
+entity jpa --class ~.model.dataelement --testAutomatically
+field number refId --type java.lang.Integer --NotNull
+field number parentId --type java.lang.Integer
+field number --fieldName vdId --type java.lang.Integer
+field string --fieldName description
+field string --fieldName definition
+field set --fieldName subelements --type ~.model.dataelement
+entity jpa --class ~.model.valuedomain --testAutomatically
+field number refid --type java.lang.Integer --NotNull
+field set --fieldName des --type ~.model.dataelement
+field string --fieldName unitOfMeasure
+field string --fieldName regexDef
+field string --fieldName description
+field string --fieldName datatype
+entity jpa --class ~.model.conceptualDomain --testAutomatically
+field number refid --type java.lang.Integer --NotNull
+field string --fieldName description
+field set --fieldName valueDomains --type ~.model.valuedomain
+entity jpa --class ~.model.umlModel --testAutomatically
+field number refid --type java.lang.Integer --NotNull
+field number --fieldName conceptId --type java.lang.Integer
+field set --fieldName dataelements --type ~.model.dataelement
+field set --fieldName valuedomains --type ~.model.valuedomain
+field string --fieldName description
+perform tests
+perform tests
+perform tests
+perform tests
+web mvc setup
+web mvc all --package ~.web
+json all 
+web mvc json all

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_uk_co_mdc_model_Valuedomain" modelAttribute="valuedomain" path="/valuedomains" versionField="Version" z="3FiMCAFZ62LRp/v9x8fvcuxmLGI=">
+        <field:input field="refid" id="c_uk_co_mdc_model_Valuedomain_refid" validationMessageCode="field_invalid_integer" z="RqU6/eyyGSSww7WjtKB1wkeLnuc="/>
+        <field:select field="des" id="c_uk_co_mdc_model_Valuedomain_des" itemValue="id" items="${dataelements}" multiple="true" path="/dataelements" z="OVMUP5AeN+wHm5dz6GJ7pNojbIQ="/>
+        <field:input field="unitOfMeasure" id="c_uk_co_mdc_model_Valuedomain_unitOfMeasure" z="jQlrqdHKvw1DQie7f/eIh4rXPq8="/>
+        <field:input field="regexDef" id="c_uk_co_mdc_model_Valuedomain_regexDef" z="j2GuQnkZH2XELi8BRrFW8e533DI="/>
+        <field:input field="description" id="c_uk_co_mdc_model_Valuedomain_description" z="TKZ+gft93WT0VnsWfxBsURaVtbE="/>
+        <field:input field="datatype" id="c_uk_co_mdc_model_Valuedomain_datatype" z="mdI+gv5a8RZQlqbNNBI9P1mh/vQ="/>
+    </form:update>
+</div>

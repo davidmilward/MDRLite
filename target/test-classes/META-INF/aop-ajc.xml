@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="uk.co.mdc.model.ConceptualDomainDataOnDemand_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.ConceptualDomainDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="uk.co.mdc.model.DataelementDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="uk.co.mdc.model.ValuedomainDataOnDemand_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.UmlModelDataOnDemand_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.ConceptualDomainIntegrationTest_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.UmlModelDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="uk.co.mdc.model.UmlModelIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="uk.co.mdc.model.UmlModelIntegrationTest_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.DataelementIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="uk.co.mdc.model.DataelementIntegrationTest_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.ValuedomainDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="uk.co.mdc.model.ConceptualDomainIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="uk.co.mdc.model.DataelementDataOnDemand_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.ValuedomainIntegrationTest_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.ValuedomainIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

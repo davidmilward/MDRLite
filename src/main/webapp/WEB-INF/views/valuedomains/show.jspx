@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_uk_co_mdc_model_Valuedomain" object="${valuedomain}" path="/valuedomains" z="16SPDGIqoUHI0qUThDSXogfFSOs=">
+        <field:display field="refid" id="s_uk_co_mdc_model_Valuedomain_refid" object="${valuedomain}" z="qy+Ww0mHDny1kzSPNxdr7MLfH9M="/>
+        <field:display field="des" id="s_uk_co_mdc_model_Valuedomain_des" object="${valuedomain}" z="L9lK0jPgnRw5zJIvR2k4EHJVrzo="/>
+        <field:display field="unitOfMeasure" id="s_uk_co_mdc_model_Valuedomain_unitOfMeasure" object="${valuedomain}" z="1/J8VcWGXlHmnnW0m+Ducg1drzM="/>
+        <field:display field="regexDef" id="s_uk_co_mdc_model_Valuedomain_regexDef" object="${valuedomain}" z="syA7eTPw/F7fE8NeEVNqqOf/YFk="/>
+        <field:display field="description" id="s_uk_co_mdc_model_Valuedomain_description" object="${valuedomain}" z="5uO75Fn+U9pFAtKeW6QWgDKkCbs="/>
+        <field:display field="datatype" id="s_uk_co_mdc_model_Valuedomain_datatype" object="${valuedomain}" z="kA6yR6ilTAgDSYK04637pmwtc+U="/>
+    </page:show>
+</div>

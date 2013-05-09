@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_uk_co_mdc_model_Dataelement" items="${dataelements}" z="NppALspTWsyauR/P42OdXLSwIt4=">
+        <table:table data="${dataelements}" id="l_uk_co_mdc_model_Dataelement" path="/dataelements" z="lXJadzum2j1jwYrN3mRwZiQqey4=">
+            <table:column id="c_uk_co_mdc_model_Dataelement_refId" property="refId" z="jixyx2WhDHI8U52bZA7+ZDsd3v8="/>
+            <table:column id="c_uk_co_mdc_model_Dataelement_parentId" property="parentId" z="N4ZRocJPU2QBY3YiwriNTAwJsDw="/>
+            <table:column id="c_uk_co_mdc_model_Dataelement_vdId" property="vdId" z="ImDviNwnGu73ThSdMZpyLG0hZa0="/>
+            <table:column id="c_uk_co_mdc_model_Dataelement_description" property="description" z="tyLLhOha/ncFOItkc2IZixx7cDA="/>
+            <table:column id="c_uk_co_mdc_model_Dataelement_definition" property="definition" z="siOPCtoCcPipDbR9aL5Zc+BAkUU="/>
+            <table:column id="c_uk_co_mdc_model_Dataelement_subelements" property="subelements" z="HuXdnjtKvrf9dujv17wLRF4sACc="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_uk_co_mdc_model_ConceptualDomain" object="${conceptualdomain}" path="/conceptualdomains" z="lGDfcpy+7HDDNUuMgGrg0WQRLSI=">
+        <field:display field="refid" id="s_uk_co_mdc_model_ConceptualDomain_refid" object="${conceptualdomain}" z="AVZvzqKepGqsYlfmoHDoyXxVEF8="/>
+        <field:display field="description" id="s_uk_co_mdc_model_ConceptualDomain_description" object="${conceptualdomain}" z="brY6AaWarHqXAS/pp6J9pHfi0cM="/>
+        <field:display field="valueDomains" id="s_uk_co_mdc_model_ConceptualDomain_valueDomains" object="${conceptualdomain}" z="svuZM36Q4UVEya3xIUaIFiv5tto="/>
+    </page:show>
+</div>

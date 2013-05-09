@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_uk_co_mdc_model_Dataelement" object="${dataelement}" path="/dataelements" z="899CIn1ZTiDvIOqS9xDmVSgrQYw=">
+        <field:display field="refId" id="s_uk_co_mdc_model_Dataelement_refId" object="${dataelement}" z="cC4NX063d2+Vua6ZKPmj+Qxz3NU="/>
+        <field:display field="parentId" id="s_uk_co_mdc_model_Dataelement_parentId" object="${dataelement}" z="02t4Pz9IL3Ka5HP7Rsmff7ZCBLs="/>
+        <field:display field="vdId" id="s_uk_co_mdc_model_Dataelement_vdId" object="${dataelement}" z="1we9z34LfWNsBIF49MT0p/qCCpA="/>
+        <field:display field="description" id="s_uk_co_mdc_model_Dataelement_description" object="${dataelement}" z="qD39arD0s3AJj0O+ZiFP+OYHfJU="/>
+        <field:display field="definition" id="s_uk_co_mdc_model_Dataelement_definition" object="${dataelement}" z="nhkYEnrjW8RXrWFSqoKFWUHlmTA="/>
+        <field:display field="subelements" id="s_uk_co_mdc_model_Dataelement_subelements" object="${dataelement}" z="X0CVqDKDBnRGNK8ESAN0CJc965k="/>
+    </page:show>
+</div>

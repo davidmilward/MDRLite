@@ -1,0 +1,38 @@
+<aspectj>
+<aspects>
+<aspect name="uk.co.mdc.model.Valuedomain_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.UmlModel_Roo_Json"/>
+<aspect name="uk.co.mdc.web.ConceptualDomainController_Roo_Controller"/>
+<aspect name="uk.co.mdc.model.UmlModel_Roo_ToString"/>
+<aspect name="uk.co.mdc.model.Dataelement_Roo_Jpa_Entity"/>
+<aspect name="uk.co.mdc.model.Dataelement_Roo_ToString"/>
+<aspect name="uk.co.mdc.model.ConceptualDomain_Roo_Configurable"/>
+<aspect name="uk.co.mdc.web.DataelementController_Roo_Controller"/>
+<aspect name="uk.co.mdc.model.Dataelement_Roo_Jpa_ActiveRecord"/>
+<aspect name="uk.co.mdc.model.Valuedomain_Roo_ToString"/>
+<aspect name="uk.co.mdc.web.UmlModelController_Roo_Controller_Json"/>
+<aspect name="uk.co.mdc.model.UmlModel_Roo_Jpa_ActiveRecord"/>
+<aspect name="uk.co.mdc.model.Valuedomain_Roo_Json"/>
+<aspect name="uk.co.mdc.model.ConceptualDomain_Roo_JavaBean"/>
+<aspect name="uk.co.mdc.web.ConceptualDomainController_Roo_Controller_Json"/>
+<aspect name="uk.co.mdc.web.ValuedomainController_Roo_Controller"/>
+<aspect name="uk.co.mdc.model.ConceptualDomain_Roo_ToString"/>
+<aspect name="uk.co.mdc.web.UmlModelController_Roo_Controller"/>
+<aspect name="uk.co.mdc.model.Valuedomain_Roo_Jpa_Entity"/>
+<aspect name="uk.co.mdc.model.UmlModel_Roo_JavaBean"/>
+<aspect name="uk.co.mdc.model.Dataelement_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.UmlModel_Roo_Jpa_Entity"/>
+<aspect name="uk.co.mdc.model.Valuedomain_Roo_Jpa_ActiveRecord"/>
+<aspect name="uk.co.mdc.web.DataelementController_Roo_Controller_Json"/>
+<aspect name="uk.co.mdc.web.ValuedomainController_Roo_Controller_Json"/>
+<aspect name="uk.co.mdc.model.Dataelement_Roo_Json"/>
+<aspect name="uk.co.mdc.model.Dataelement_Roo_JavaBean"/>
+<aspect name="uk.co.mdc.model.UmlModel_Roo_Configurable"/>
+<aspect name="uk.co.mdc.model.ConceptualDomain_Roo_Jpa_Entity"/>
+<aspect name="uk.co.mdc.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="uk.co.mdc.model.ConceptualDomain_Roo_Jpa_ActiveRecord"/>
+<aspect name="uk.co.mdc.model.ConceptualDomain_Roo_Json"/>
+<aspect name="uk.co.mdc.model.Valuedomain_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_dataelement" z="mh9RexjWW3ehiJfbGJTo6H/JlDQ=">
+            <menu:item id="i_dataelement_new" messageCode="global_menu_new" url="/dataelements?form" z="yX4K2dDv/g3eCIHrte26k3uoVJ4="/>
+            <menu:item id="i_dataelement_list" messageCode="global_menu_list" url="/dataelements?page=1&amp;size=${empty param.size ? 10 : param.size}" z="HfvssvooGyEAQ7ubo/9QpsM5ybA="/>
+        </menu:category>
+        <menu:category id="c_umlmodel" z="itX1o6VDDleZ7M+jA4rmLfqmUdM=">
+            <menu:item id="i_umlmodel_new" messageCode="global_menu_new" url="/umlmodels?form" z="zyzXpAEDxHTUcB4B9CEqs/nfNh0="/>
+            <menu:item id="i_umlmodel_list" messageCode="global_menu_list" url="/umlmodels?page=1&amp;size=${empty param.size ? 10 : param.size}" z="qbfXSxHupFkEuLAXgyAVA5wwI0w="/>
+        </menu:category>
+        <menu:category id="c_conceptualdomain" z="IPFcgnJ/bvBFtWk5kKnnTYjI9II=">
+            <menu:item id="i_conceptualdomain_new" messageCode="global_menu_new" url="/conceptualdomains?form" z="HW6VKBpGat63cQx5fY77Alvagj8="/>
+            <menu:item id="i_conceptualdomain_list" messageCode="global_menu_list" url="/conceptualdomains?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Zk7OlWkXpnu92VRDPKzHYmzzEh0="/>
+        </menu:category>
+        <menu:category id="c_valuedomain" z="LuWkDonNDk87TMmfp4UBLzCJafc=">
+            <menu:item id="i_valuedomain_new" messageCode="global_menu_new" url="/valuedomains?form" z="a754pu/gTf6Ei8hRG+3sfzGKlQE="/>
+            <menu:item id="i_valuedomain_list" messageCode="global_menu_list" url="/valuedomains?page=1&amp;size=${empty param.size ? 10 : param.size}" z="h2n3mfgT4AmnO/Xc9bdt5tutV40="/>
+        </menu:category>
+    </menu:menu>
+</div>

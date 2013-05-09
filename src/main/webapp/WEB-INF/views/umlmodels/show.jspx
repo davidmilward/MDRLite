@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_uk_co_mdc_model_UmlModel" object="${umlmodel}" path="/umlmodels" z="FFrCylR05jOXH0SP2eeU9Jnhf5w=">
+        <field:display field="refid" id="s_uk_co_mdc_model_UmlModel_refid" object="${umlmodel}" z="vwmk/wg0rPdsy58bcPjTfgwaWZU="/>
+        <field:display field="conceptId" id="s_uk_co_mdc_model_UmlModel_conceptId" object="${umlmodel}" z="TPOli1vmeXkUsqokcyVA9zByDbo="/>
+        <field:display field="dataelements" id="s_uk_co_mdc_model_UmlModel_dataelements" object="${umlmodel}" z="+J6P3u7wulMCMvBdGFnqZ8NqQeg="/>
+        <field:display field="valuedomains" id="s_uk_co_mdc_model_UmlModel_valuedomains" object="${umlmodel}" z="kFy/yMxlaagJovXRYxMqpgj1B+Q="/>
+        <field:display field="description" id="s_uk_co_mdc_model_UmlModel_description" object="${umlmodel}" z="Q1ztv+knUUYKZ4ZiXxKl4XerZXo="/>
+    </page:show>
+</div>
