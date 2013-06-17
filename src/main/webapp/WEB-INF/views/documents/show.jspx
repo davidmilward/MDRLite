@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_uk_co_mdc_model_Document" object="${document}" path="/documents" update="false" z="LvlCmTXmljNzofJnGFylKk3Tk6I=">
+        <field:display field="name" id="s_uk_co_mdc_model_Document_name" object="${document}" z="VNxI2FOgnJjGeOWFavrmKH1UBYo="/>
+        <field:display field="description" id="s_uk_co_mdc_model_Document_description" object="${document}" z="Ud+gWXobAR+xuD2isUxqym4/vXI="/>
+        <field:display field="contentType" id="s_uk_co_mdc_model_Document_contentType" object="${document}" z="P819h/tmjgx8L9y4Mp7v2kDqXWU="/>
+        <field:display field="sz" id="s_uk_co_mdc_model_Document_sz" object="${document}" z="JmAfb3XbZ7Hz98XQEbMCAS7qCU4="/>
+        <field:display field="content" id="s_uk_co_mdc_model_Document_content" object="${document}" z="kT3VEWEYl7hgT5hpMs8PTeWUmZU="/>
+        <field:display field="filename" id="s_uk_co_mdc_model_Document_filename" object="${document}" z="aCum6jj4ezNJVF6APX+NsclFpQA="/>
+    </page:show>
+</div>

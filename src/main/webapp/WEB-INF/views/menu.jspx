@@ -19,5 +19,9 @@
             <menu:item id="i_valuedomain_new" messageCode="global_menu_new" url="/valuedomains?form" z="a754pu/gTf6Ei8hRG+3sfzGKlQE="/>
             <menu:item id="i_valuedomain_list" messageCode="global_menu_list" url="/valuedomains?page=1&amp;size=${empty param.size ? 10 : param.size}" z="h2n3mfgT4AmnO/Xc9bdt5tutV40="/>
         </menu:category>
+        <menu:category id="c_document" z="IwaW5r7KHuYYhv8LICTHRKgUWao=">
+            <menu:item id="i_document_new" messageCode="global_menu_new" url="/documents?form" z="bv1eg7qAwaBE1ATd78QiQm2M3ZE="/>
+            <menu:item id="i_document_list" messageCode="global_menu_list" url="/documents?page=1&amp;size=${empty param.size ? 10 : param.size}" z="p196XK4gvGXOnIrUwDqNS/p7fzE="/>
+        </menu:category>
     </menu:menu>
 </div>

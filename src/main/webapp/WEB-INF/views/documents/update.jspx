@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_uk_co_mdc_model_Document" modelAttribute="document" path="/documents" versionField="Version" z="r40Nw1Zd3F/v0F3O5+kZu9cPLbM=">
+        <field:input field="name" id="c_uk_co_mdc_model_Document_name" min="2" required="true" z="Ev/gKBSsfporlNmAd9/yLjxk9Es="/>
+        <field:textarea field="description" id="c_uk_co_mdc_model_Document_description" required="true" z="q8YaKBs1Ainj5V5aCnXnAISATSY="/>
+        <field:input field="contentType" id="c_uk_co_mdc_model_Document_contentType" z="MS0l0wEzemg7tsTTX1zpwCZXngo="/>
+        <field:input field="sz" id="c_uk_co_mdc_model_Document_sz" validationMessageCode="field_invalid_integer" z="MHIHer+qSuv6RWBVI5dkPHvPO4Y="/>
+        <field:textarea field="content" id="c_uk_co_mdc_model_Document_content" required="true" z="Y/WDhLjtFXfQ4q/5gePuRYppbQw="/>
+        <field:input field="filename" id="c_uk_co_mdc_model_Document_filename" z="TN32gzFrxzo3RyYFsTfj03gUrVo="/>
+    </form:update>
+</div>

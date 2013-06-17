@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_uk_co_mdc_model_Document" items="${documents}" z="FaVlwzGU+wKuPdNt2UFnk5p5Y/k=">
+        <table:table data="${documents}" id="l_uk_co_mdc_model_Document" path="/documents" update="false" z="Skz/nIaPkr7vcJ+cnr7DFv3Xf2U=">
+            <table:column id="c_uk_co_mdc_model_Document_name" property="name" z="0Ahyn5aKWZU4O1TJ5zV/axqppUs="/>
+            <table:column id="c_uk_co_mdc_model_Document_description" property="description" z="ghXaZv5cQ29R0JtYIaRlqTKrCPE="/>
+            <table:column id="c_uk_co_mdc_model_Document_contentType" property="contentType" z="srrzqM4nbxML/LgUhfurvWL53PA="/>
+            <table:column id="c_uk_co_mdc_model_Document_sz" property="sz" z="GzDmyUtzvcqMrHgitquF05ScvT4="/>
+            <table:column id="c_uk_co_mdc_model_Document_content" property="content" z="BTFTaLzS+Hj5fvyBkF1QCzaZu2g="/>
+            <table:column id="c_uk_co_mdc_model_Document_filename" property="filename" z="NXPkmpxaMwO5hqzW6uYRd0UHlzE="/>
+        </table:table>
+    </page:list>
+</div>

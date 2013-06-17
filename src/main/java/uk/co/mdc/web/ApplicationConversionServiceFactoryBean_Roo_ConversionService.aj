@@ -8,6 +8,7 @@ import org.springframework.core.convert.converter.Converter;
 import org.springframework.format.FormatterRegistry;
 import uk.co.mdc.model.ConceptualDomain;
 import uk.co.mdc.model.Dataelement;
+import uk.co.mdc.model.Document;
 import uk.co.mdc.model.UmlModel;
 import uk.co.mdc.model.Valuedomain;
 import uk.co.mdc.web.ApplicationConversionServiceFactoryBean;
@@ -60,6 +61,30 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         return new org.springframework.core.convert.converter.Converter<java.lang.String, uk.co.mdc.model.Dataelement>() {
             public uk.co.mdc.model.Dataelement convert(String id) {
                 return getObject().convert(getObject().convert(id, Long.class), Dataelement.class);
+            }
+        };
+    }
+    
+    public Converter<Document, String> ApplicationConversionServiceFactoryBean.getDocumentToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<uk.co.mdc.model.Document, java.lang.String>() {
+            public String convert(Document document) {
+                return new StringBuilder().append(document.getName()).append(' ').append(document.getDescription()).append(' ').append(document.getContentType()).append(' ').append(document.getSz()).toString();
+            }
+        };
+    }
+    
+    public Converter<Long, Document> ApplicationConversionServiceFactoryBean.getIdToDocumentConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.Long, uk.co.mdc.model.Document>() {
+            public uk.co.mdc.model.Document convert(java.lang.Long id) {
+                return Document.findDocument(id);
+            }
+        };
+    }
+    
+    public Converter<String, Document> ApplicationConversionServiceFactoryBean.getStringToDocumentConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, uk.co.mdc.model.Document>() {
+            public uk.co.mdc.model.Document convert(String id) {
+                return getObject().convert(getObject().convert(id, Long.class), Document.class);
             }
         };
     }
@@ -119,6 +144,9 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getDataelementToStringConverter());
         registry.addConverter(getIdToDataelementConverter());
         registry.addConverter(getStringToDataelementConverter());
+        registry.addConverter(getDocumentToStringConverter());
+        registry.addConverter(getIdToDocumentConverter());
+        registry.addConverter(getStringToDocumentConverter());
         registry.addConverter(getUmlModelToStringConverter());
         registry.addConverter(getIdToUmlModelConverter());
         registry.addConverter(getStringToUmlModelConverter());
